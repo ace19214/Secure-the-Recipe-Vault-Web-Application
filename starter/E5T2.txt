@@ -1,0 +1,21 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+- Cfripper
+- Regula
+- Terrascan
+- Cloudsploit
+### Example vulnerability
+- detect vulnerability when we set up security group
+##Scan AMI’s or containers for OS vulnerabilities
+- Clair
+- Anchore
+- Trivy
+### Example vulnerability
+- Detects malwares, trojans, etc
+##Scan an AWS environment for cloud configuration vulnerabilities
+- AWS Config
+- AWS GuardDuty
+### Example vulnerability
+- Provides resource inventory, configuration history, and configuration change notifications to use security and governance
+- Threat detection that continuously monitors for malicious activity for EC2, S3, ect

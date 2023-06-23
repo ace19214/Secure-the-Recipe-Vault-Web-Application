@@ -1,0 +1,9 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+# Poor practice 1
+Currently, We can use the access key of iam user to upload and access proprietary recipes.
+If unlucky, the access key is stolen and the attacker can have permission do anythings on s3 bucket
+# Poor practice 2
+RecipeWebServiceInstance is opening port 22
+If attackers have credentials they can access the instances directly and cause damages for our system
+
